@@ -16,7 +16,7 @@ import Fees from "../DrawerItems/Fees";
 import Notification from "../DrawerItems/Notification";
 import CourseMaterial from "../DrawerItems/Course_Material";
 import Lecturer_Assessment from "../DrawerItems/Lecturer_Assessment";
-import settings from "../DrawerItems/settings";
+import Setting from "../DrawerItems/Setting";
 import Help_feedback from "../DrawerItems/Help_feedback";
 
 const Drawer = createDrawerNavigator();
@@ -164,7 +164,7 @@ const DrawerNavigator = () => {
       />
       <Drawer.Screen
         name="Settings"
-        component={settings}
+        component={Setting}
         options={{
           drawerIcon: () => (
             <FontAwesome

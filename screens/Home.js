@@ -8,6 +8,7 @@ import {
   Button,
 } from "react-native";
 import { Avatar } from "react-native-elements";
+import { DrawerActions } from "@react-navigation/native";
 
 const Home = ({navigation}) => {
     
@@ -21,9 +22,9 @@ const Home = ({navigation}) => {
             <View style={{ marginLeft: 20 }}>
               <TouchableOpacity
                 activeOpacity={0.5}
-                // onPress={() => navigation.toggleDrawer()}
+                onPress={()=>navigation.toggleDrawer()}
               >
-                <Icon name="menu" size={24} color="#fff" />
+                <Icon name="menu" size={24} color="#fff"/>
               </TouchableOpacity>
             </View>
           ),
@@ -42,7 +43,7 @@ const Home = ({navigation}) => {
               </TouchableOpacity>
               <TouchableOpacity
                 activeOpacity={0.5}
-                // onPress={() => navigation.navigate("Reference")}
+                onPress={() => navigation.navigate("Reference")}
               >
                 <Icon
                   name="dots-three-vertical"

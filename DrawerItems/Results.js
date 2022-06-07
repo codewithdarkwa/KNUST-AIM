@@ -1,9 +1,8 @@
-import React, { useLayoutEffect, useEffect, useState } from "react";
+import React, { useLayoutEffect } from "react";
 import { View, TouchableOpacity, ScrollView } from "react-native";
 import { ListItem, Icon } from "react-native-elements";
-import Loading from "../components/Loading";
 const Results = ({ navigation }) => {
-  const [loading, setLoading] = useState(false);
+ 
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -24,17 +23,9 @@ const Results = ({ navigation }) => {
     });
   }, [navigation]);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(true);
-    }, 2000);
-  }, []);
 
   return (
-    <>
-      {!loading ? (
-        <Loading />
-      ) : (
+
         <ScrollView style={{ marginTop: 5 }}>
           <ListItem bottomDivider>
             <Icon name="file-text-o" size={35} type="font-awesome" />
@@ -52,8 +43,6 @@ const Results = ({ navigation }) => {
             </ListItem.Content>
           </ListItem>
         </ScrollView>
-      )}
-    </>
   );
 };
 

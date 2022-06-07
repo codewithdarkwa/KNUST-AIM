@@ -1,10 +1,8 @@
-import React, { useLayoutEffect, useState, useEffect } from "react";
+import React, { useLayoutEffect, useEffect } from "react";
 import { Text, View, TouchableOpacity, ScrollView } from "react-native";
 import { ListItem, Icon } from "react-native-elements";
-import Loading from "../components/Loading";
 
 const Course_Material = ({ navigation }) => {
-  const [loading, setLoading] = useState(false);
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -24,12 +22,6 @@ const Course_Material = ({ navigation }) => {
       ),
     });
   }, [navigation]);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(true);
-    }, 2000);
-  }, []);
 
   const courses = [
     {
@@ -69,10 +61,7 @@ const Course_Material = ({ navigation }) => {
     },
   ];
   return (
-    <>
-      {!loading ? (
-        <Loading />
-      ) : (
+
         <ScrollView style={{ marginTop: 5 }}>
           <ListItem bottomDivider>
             <Text style={{ fontSize: 20, color: "grey" }}>
@@ -88,8 +77,6 @@ const Course_Material = ({ navigation }) => {
             </ListItem>
           ))}
         </ScrollView>
-      )}
-    </>
   );
 };
 

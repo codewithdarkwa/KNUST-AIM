@@ -1,17 +1,11 @@
 import React,{useEffect, useState} from 'react'
-import { StyleSheet, Text, View,Dimensions,Image, ImageBackground} from 'react-native'
+import { StyleSheet, View,Dimensions, ImageBackground} from 'react-native'
 import { Avatar } from 'react-native-elements/dist/avatar/Avatar';
 
 const {width,height} = Dimensions.get("window");
 const header = () => {
 const [image,  setImageUrl]=useState("");
 
-    useEffect(() => {
-       fetch(require("../API/Reference.json"))
-       .then((response) => response.json())
-       .then((json)=>setImageUrl(json))
-       .catch((error) =>console.error(error))
-    }, [])
 
     return (
         <View style={styles.container}>
