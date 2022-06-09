@@ -1,15 +1,15 @@
 import React from "react";
-import { StyleSheet, View, SafeAreaView } from "react-native";
+import { StyleSheet, View, SafeAreaView,Text } from "react-native";
 import { Button } from "react-native-elements";
 
 const Bill = ({ navigation }) => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex:1,alignItems:'center'}}>
       <View
         style={{
-          alignItems: "center",
-          justifyContent: "center",
-          marginTop: 500,
+          flex: 1,
+          justifyContent: "flex-end",
+          marginBottom:20
         }}
       >
         <Button
@@ -27,9 +27,8 @@ export default Bill;
 
 const styles = StyleSheet.create({
   button: {
-    width: "100%",
+    width: 350,
     borderRadius: 20,
-    color: "white",
     backgroundColor: "#990000",
   },
 });

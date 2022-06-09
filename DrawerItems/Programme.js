@@ -1,14 +1,14 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, Text } from "react-native";
 
 const Programme = () => {
   return (
     <>
-      <View>Program will be here</View>
+      <Text>Program will be here</Text>
     </>
   );
 };
 
 export default Programme;
 
-const styles = StyleSheet.create({});
+

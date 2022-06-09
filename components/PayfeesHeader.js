@@ -3,8 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const PayfeesHeader = () => {
     return (
-        <View style={styles.container}>
-           
+        <View style={styles.container}>      
         </View>
     )
 }

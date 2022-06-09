@@ -1,6 +1,5 @@
 import React, { useLayoutEffect } from "react";
 import {
-  StyleSheet,
   Text,
   View,
   ScrollView,
@@ -9,24 +8,7 @@ import {
 import { Card, Icon } from "react-native-elements";
 
 const Bio = ({ navigation }) => {
-  useLayoutEffect(() => {
-    navigation.setOptions({
-      title: "BIO",
-      headerStyle: { backgroundColor: "#8b0000" },
-      headerTitleStyle: { color: "#fff" },
-      headerTintColor: "black",
-      headerLeft: () => (
-        <View style={{ marginLeft: 20 }}>
-          <TouchableOpacity
-            activeOpacity={0.5}
-            onPress={() => navigation.toggleDrawer()}
-          >
-            <Icon name="menu" size={24} color="#fff" />
-          </TouchableOpacity>
-        </View>
-      ),
-    });
-  }, [navigation]);
+
 
   return (
     <ScrollView>

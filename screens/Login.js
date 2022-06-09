@@ -38,7 +38,7 @@ const Login = ({navigation}) => {
     {
       username.length == 0 || password.length == 0
         ? alert("Required field is missing")
-        : navigation.replace("Home");
+        : navigation.replace("HomeScreen");
     }
   };
     return(

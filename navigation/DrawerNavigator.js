@@ -35,7 +35,6 @@ const DrawerNavigator = () => {
                 width: 280,
                 alignItems: "flex-start",
                 justifyContent: "center",
-                backgroundColor: "cyan",
               }}
             >
               <Image
@@ -62,7 +61,7 @@ const DrawerNavigator = () => {
             <FontAwesome
               name="home"
               size={25}
-              color="#fff"
+             color="#000"
             />
           ),
         }}
@@ -76,7 +75,7 @@ const DrawerNavigator = () => {
             <FontAwesome
               name="user"
               size={25}
-              color="#fff"
+             color="#000"
             />
           ),
         }}
@@ -89,7 +88,7 @@ const DrawerNavigator = () => {
             <FontAwesome5
               name="file-invoice"
               size={25}
-              color="#fff"
+             color="#000"
             />
           ),
         }}
@@ -102,7 +101,7 @@ const DrawerNavigator = () => {
             <FontAwesome
               name="check-square"
               size={25}
-              color="#fff"
+             color="#000"
             />
           ),
         }}
@@ -116,7 +115,7 @@ const DrawerNavigator = () => {
             <FontAwesome
               name="money"
               size={25}
-              color="#fff"
+             color="#000"
             />
           ),
         }}
@@ -129,7 +128,7 @@ const DrawerNavigator = () => {
             <FontAwesome
               name="bell"
               size={25}
-              color="#fff"
+             color="#000"
             />
           ),
         }}
@@ -143,7 +142,7 @@ const DrawerNavigator = () => {
             <FontAwesome
               name="file-text"
               size={25}
-              color="#fff"
+             color="#000"
             />
           ),
         }}
@@ -157,7 +156,7 @@ const DrawerNavigator = () => {
             <FontAwesome5
               name="user-check"
               size={25}
-              color="#fff"
+             color="#000"
             />
           ),
         }}
@@ -170,7 +169,7 @@ const DrawerNavigator = () => {
             <FontAwesome
               name="cog"
               size={25}
-              color="#fff"
+             color="#000"
             />
           ),
         }}
@@ -184,7 +183,7 @@ const DrawerNavigator = () => {
             <MaterialIcons
               name="help-center"
               size={25}
-              color="#fff"
+             color="#000"
             />
           ),
         }}

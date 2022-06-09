@@ -1,7 +1,7 @@
 import React, { useLayoutEffect } from "react";
 import { View, TouchableOpacity } from "react-native";
 import { ListItem, Icon } from "react-native-elements";
-const settings = ({ navigation }) => {
+const Settings = ({ navigation }) => {
   useLayoutEffect(() => {
     navigation.setOptions({
       title: "Settings",
@@ -70,4 +70,4 @@ const settings = ({ navigation }) => {
   );
 };
 
-export default settings;
+export default Settings;

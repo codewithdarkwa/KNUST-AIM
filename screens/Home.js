@@ -24,7 +24,7 @@ const Home = ({navigation}) => {
                 activeOpacity={0.5}
                 onPress={()=>navigation.toggleDrawer()}
               >
-                <Icon name="menu" size={24} color="#fff"/>
+                <Icon name="menu" size={24} color="#fff" />
               </TouchableOpacity>
             </View>
           ),
@@ -74,14 +74,14 @@ const Home = ({navigation}) => {
           name:"Slip"
         },
         {
-          id: 2,
-          src: require("../assets/img/registration.png"),
-          name: "Registration",
-        },
-        {
           id: 6,
           src: require("../assets/img/fees.png"),
           name:"Fees"
+        },
+        {
+          id: 2,
+          src: require("../assets/img/registration.png"),
+          name: "Registration",
         },
         {
           id: 4,

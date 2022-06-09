@@ -10,9 +10,9 @@ const MainStackNavigator = () => {
 
     return(
         <Stack.Navigator >
-            {/* <Stack.Screen name="Reference" component={Reference} options={{headerShown:false}}/> */}
-            {/* <Stack.Screen name="Login" component={Login} options={{headerShown:false}}/> */}
-            <Stack.Screen name="Home" component={Home} />
+            <Stack.Screen name="Reference" component={Reference} options={{headerShown:false}}/>
+            <Stack.Screen name="Login" component={Login} options={{headerShown:false}}/>
+            <Stack.Screen name="HomeScreen" component={Home}  />
         </Stack.Navigator>
     )
 }
