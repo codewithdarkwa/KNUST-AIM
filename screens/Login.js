@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
   inputContainer: {
     padding: 10,
     width: 300,
-    marginTop: 17,
+    marginTop: 24,
   },
   btn: {
     backgroundColor: "#990000",
