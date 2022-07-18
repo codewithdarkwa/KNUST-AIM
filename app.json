@@ -4,7 +4,7 @@
     "slug": "AIM",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/img/aim.png",
+    "icon": "./assets/aim.jpg",
     "privacy":"public",
     "description":"Academic Information Manager",
     "userInterfaceStyle": "light",
