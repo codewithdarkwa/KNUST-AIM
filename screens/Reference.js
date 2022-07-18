@@ -3,7 +3,6 @@ import { useState } from 'react';
 import {View,StyleSheet} from 'react-native'
 import HeaderRef from '../components/HeaderRef';
 import { Input, Button, Avatar } from "react-native-elements";
-import {StatusBar} from 'expo-status-bar'
 
 const Reference = ({navigation}) => {
     const [studentId, setStudentId] = useState('')
@@ -43,7 +42,6 @@ const Reference = ({navigation}) => {
       ];
     return(
      <>
-      <StatusBar style='dark' backgroundColor='red'/>
          <HeaderRef/>
          <View style={styles.container}>
           <Input
