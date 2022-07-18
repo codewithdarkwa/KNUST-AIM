@@ -9,7 +9,7 @@ export default function App() {
    <NavigationContainer>
     <DrawerNavigator />
    </NavigationContainer>
-   <StatusBar style="dark"/>
+   <StatusBar style="dark" backgroundColor="red"/>
     </>
   );
 }
