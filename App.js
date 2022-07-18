@@ -8,7 +8,7 @@ export default function App() {
     <>
    <NavigationContainer>
     <DrawerNavigator />
-   <StatusBar style="dark" backgroundColor="red" />
+   <StatusBar style="inverted" backgroundColor="red" />
    </NavigationContainer>
     </>
   );
