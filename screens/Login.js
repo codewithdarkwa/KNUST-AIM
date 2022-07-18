@@ -2,6 +2,7 @@ import { useState } from 'react';
 import {View,Text,TouchableOpacity,StyleSheet} from 'react-native'
 import Header from '../components/Header'
 import { Input, Button, Avatar } from "react-native-elements";
+import { StatusBar } from 'expo-status-bar';
 
 const Login = ({navigation}) => {
 
@@ -43,6 +44,7 @@ const Login = ({navigation}) => {
   };
     return(
       <>
+      <StatusBar style='dark' backgroundColor='red'/>
       <Header />
       <View style={styles.container}>
             <Input
@@ -100,13 +102,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    marginTop: 60,
+    marginTop: 70,
     justifyContent: "center",
   },
   inputContainer: {
     padding: 10,
     width: 300,
-    marginTop: 30,
+    marginTop: 22,
   },
   btn: {
     backgroundColor: "#990000",
