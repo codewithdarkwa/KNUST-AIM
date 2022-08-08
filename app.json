@@ -9,9 +9,9 @@
     "description":"Academic Information Manager",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/splash1.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#8b0000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
