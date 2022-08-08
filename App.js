@@ -33,12 +33,12 @@ export default function App() {
   );
 
   return (
-    <SafeAreaView onLayout={onLayoutRootView} style={{flex:1}}>
-   <NavigationContainer>
+    <NavigationContainer>
    <MyStatusBar barStyle="light-content" backgroundColor="#8b0000" />
+     <SafeAreaView onLayout={onLayoutRootView} style={{flex:1}}>
     <DrawerNavigator />
-   </NavigationContainer>
     </SafeAreaView>
+   </NavigationContainer>
   );
 }
 
